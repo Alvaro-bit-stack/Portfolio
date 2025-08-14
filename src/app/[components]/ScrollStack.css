@@ -1,0 +1,71 @@
+.scroll-stack-scroller {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: scroll-position;
+  contain: layout style paint;
+
+  /* Hide scrollbar while keeping functionality */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari, Edge) */
+.scroll-stack-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-stack-inner {
+  padding: 20vh 5rem 50rem;
+  min-height: 200vh;
+  /* Ensure proper stacking context */
+  position: relative;
+  z-index: 1;
+}
+
+.scroll-stack-card {
+  transform-origin: top center;
+  will-change: transform, filter;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  height: 20rem;
+  width: 100%;
+  margin: 30px 0;
+  padding: 3rem;
+  border-radius: 40px;
+  box-sizing: border-box;
+  position: relative;
+
+  /* Improve mobile performance */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+
+  /* Add GPU acceleration hints */
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+
+  /* Prevent text selection during transforms */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  /* Smooth transitions when not being actively transformed */
+  transition: transform 0.1s ease-out;
+}
+
+.scroll-stack-end {
+  width: 100%;
+  height: 1px;
+  /* Make it invisible but present for calculations */
+  opacity: 0;
+  pointer-events: none;
+}
