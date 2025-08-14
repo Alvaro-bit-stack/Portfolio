@@ -5,12 +5,12 @@ import { IconBrandLinkedinFilled } from "@tabler/icons-react"; // adjust to your
 
 interface ButtonWithIconProps {
   downLoadIcon?: boolean;
-  linkdenIcon?: boolean;
+  linkedinIcon?: boolean;
 }
 
 export function ButtonWithIcon({
   downLoadIcon = false,
-  linkdenIcon = false,
+  linkedinIcon = false,
 }: ButtonWithIconProps) {
   return (
     <>
@@ -22,7 +22,7 @@ export function ButtonWithIcon({
         </Button>
       )}
 
-      {linkdenIcon && (
+      {linkedinIcon && (
         <Button
           asChild
           className="text-black hover:bg-gray-400 "

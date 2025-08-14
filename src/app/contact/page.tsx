@@ -1,5 +1,4 @@
 import { ButtonWithIcon } from "../[components]/ButtonWithIcon";
-import IconBrandLinkedinFilled from "@tabler/icons-react";
 export default function Contact() {
   return (
     <div className="flex flex-col">
@@ -9,14 +8,14 @@ export default function Contact() {
         </h1>
       </div>
       <p className="pt-10 md:text-2xl text-white leading-relaxed text-center max-w-4xl mx-auto">
-        Whether you're looking to discuss a new project, seek advice, or
-        collaborate,
+        {`Whether you're looking to discuss a new project, seek advice, or
+        collaborate,`}
       </p>
       <p className="p-0 md:text-2xl text-white leading-relaxed text-center max-w-4xl mx-auto">
-        I'm always excited to connect and explore new possibilities.
+        {`I'm always excited to connect and explore new possibilities.`}
       </p>
       <div className="flex mt-10 justify-center ">
-        <ButtonWithIcon linkdenIcon />
+        <ButtonWithIcon linkedinIcon />
       </div>
       <div className="flex items-center justify-center my-6 px-1 md:px-60">
         <div className="flex-grow border-t border-gray-400"></div>

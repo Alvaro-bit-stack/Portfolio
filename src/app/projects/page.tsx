@@ -25,7 +25,7 @@ export default function Projects() {
             <div className="w-[50%] flex flex-col items-center">
               <h1 className="text-5xl font-bold pb-5">Classify</h1>
               <p>
-                Classify is a full-stack web app that helps students collaborate
+                {`Classify is a full-stack web app that helps students collaborate
                 through shared classes. Built with Spring Boot and H2, the
                 backend supports secure RESTful APIs for authentication,
                 enrollment, and messaging. The frontend, developed with Node.js
@@ -33,7 +33,7 @@ export default function Projects() {
                 UI/UX design. APIs were tested with Postman and DBeaver. The app
                 is deployed with the frontend on Vercel, the backend on AWS EC2,
                 and Amazon S3 for image storage. Classify showcases skills in
-                cloud deployment, API development, and full-stack engineering.
+                cloud deployment, API development, and full-stack engineering.`}
               </p>
             </div>
             <div className="relative w-[50%]">
@@ -58,7 +58,7 @@ export default function Projects() {
                 Personal Finance Dashboard
               </h1>
               <p>
-                Developed a personal finance tracker that performs ETL (Extract,
+                {`Developed a personal finance tracker that performs ETL (Extract,
                 Transform, Load) on real-world financial data using Pandas and
                 PostgreSQL. Implemented optimized SQL queries to efficiently
                 aggregate transaction data for insightful analysis. Leveraged
@@ -68,7 +68,7 @@ export default function Projects() {
                 enabling dynamic financial visualization and user-friendly
                 insights. This project highlights expertise in data engineering,
                 SQL optimization, cloud deployment, and financial data
-                analytics.
+                analytics.`}
               </p>
             </div>
             <div className="relative w-[50%]">
@@ -93,7 +93,7 @@ export default function Projects() {
                 Google Calender Automater
               </h1>
               <p>
-                Built a Google Calendar automation tool that uses Google Vision
+                {`Built a Google Calendar automation tool that uses Google Vision
                 API and Pillow to detect and draw bounding boxes around time
                 slots in image-based schedules. Applied Python for image
                 preprocessing and data cleaning, transforming extracted text
@@ -101,7 +101,7 @@ export default function Projects() {
                 API. The tool automates event creation, eliminating the need for
                 manual input and significantly improving scheduling efficiency.
                 This project demonstrates skills in OCR, image processing, API
-                integration, and automation with Python.
+                integration, and automation with Python.`}
               </p>
             </div>
             <div className="relative w-[50%]">

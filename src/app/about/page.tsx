@@ -5,8 +5,7 @@ import ProfileCard from "../[components]/ProfileCard";
 import { useRouter } from "next/navigation";
 export default function About() {
   const router = useRouter();
-  const main_text =
-    "I'm a second-year student at Stevens Institute of Technology majoring in computer science. Some things about me is that I love all things technology. I'm a big yapper, Ill talk someone's ear off if they give me the chance. Some of my hobbies include playing guitar, playing soccer, watching anime, hiking, fitness, gaming, and just enjoying life. Circling back to technology, I have experience in full-stack development and web-services with expertise Java, SpringBoot, React, AWS,etc. I have an aptitude for problem solving, which has driven most of coding journey, but the more I have ventured in my journey, the greater my passion for coding has been built. I'm always open to exciting opportunities and collaborations. Feel free to download my resume or get in touch!";
+  const main_text = `I'm a second-year student at Stevens Institute of Technology majoring in computer science. Some things about me is that I love all things technology. I'm a big yapper, I'll talk someone's ear off if they give me the chance. Some of my hobbies include playing guitar, playing soccer, watching anime, hiking, fitness, gaming, and just enjoying life. Circling back to technology, I have experience in full-stack development and web-services with expertise Java, SpringBoot, React, AWS,etc. I have an aptitude for problem solving, which has driven most of coding journey, but the more I have ventured in my journey, the greater my passion for coding has been built. I'm always open to exciting opportunities and collaborations. Feel free to download my resume or get in touch!`;
   return (
     <>
       <div className="flex flex-col md:flex-row md:h-[100vh] text-white">
