@@ -16,7 +16,10 @@ export function ButtonWithIcon({
     <>
       {downLoadIcon && (
         <Button asChild className="text-black" variant="outline" size="lg">
-          <a href="/resume.pdf" download="Alvaro_Resume.pdf">
+          <a
+            href="/AlvaroIzquierdo_August2025.pdf"
+            download="Alvaro_Resume.pdf"
+          >
             <IconDownload className="mr-2" /> Resume
           </a>
         </Button>
