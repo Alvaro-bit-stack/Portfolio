@@ -54,7 +54,7 @@ export default function Projects() {
             className="flex flex-col md:flex-row w-full h-full"
           >
             <div className="w-[50%] flex flex-col items-center">
-              <h1 className="text-5xl font-bold pb-5">
+              <h1 className="text-5xl font-bold pb-5 text-nowrap">
                 Personal Finance Dashboard
               </h1>
               <p>
@@ -89,7 +89,7 @@ export default function Projects() {
             className="flex flex-col md:flex-row w-full h-full"
           >
             <div className="w-[50%] flex flex-col items-center">
-              <h1 className="text-5xl font-bold pb-5">
+              <h1 className="text-5xl font-bold pb-5 text-nowrap">
                 Google Calender Automater
               </h1>
               <p>
